@@ -9,3 +9,25 @@
   object-fit:contain;
   background:#fff;
 }
+
+
+/* Giving Page QR / Payment Logo */
+.giving-qr-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:24px;
+  flex-wrap:wrap;
+}
+
+.giving-qr-wrap img.qr-code{
+  max-width:220px;
+  width:100%;
+  height:auto;
+}
+
+.giving-qr-wrap img.payment-logo{
+  max-width:140px;
+  width:100%;
+  height:auto;
+}
