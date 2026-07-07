@@ -1,0 +1,28 @@
+{
+  "stories": [
+    {
+      "title": "Welcome Home",
+      "date": "2026-07-01",
+      "image": "assets/images/Website Line Dancing/LD-1.JPG",
+      "summary": "A place to belong\u2026 where everyone feels at home. Come as you are\u2026 leave changed!",
+      "body": "A place to belong\u2026 where everyone feels at home. Come as you are\u2026 leave changed!",
+      "featured": true
+    },
+    {
+      "title": "Sunday Worship",
+      "date": "2026-07-01",
+      "image": "assets/images/Website Worship (Music & Church Service)/Worship-12.JPEG",
+      "summary": "Country-style worship, practical Bible teaching, and a church family ready to welcome you.",
+      "body": "Country-style worship, practical Bible teaching, and a church family ready to welcome you.",
+      "featured": true
+    },
+    {
+      "title": "Prayer Matters",
+      "date": "2026-07-01",
+      "image": "assets/images/Website - Men_s Ministries/MM-14.JPEG",
+      "summary": "Prayer is at the heart of everything we do, and our Prayer Team is ready to pray with you.",
+      "body": "Prayer is at the heart of everything we do, and our Prayer Team is ready to pray with you.",
+      "featured": false
+    }
+  ]
+}

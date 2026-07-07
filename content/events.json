@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "title": "Sunday Worship Service",
+      "date": "2026-07-12",
+      "time": "10:00 AM",
+      "location": "Cowboy Church",
+      "description": "Country-style worship, practical Bible teaching, prayer, and church family connection.",
+      "featured": true,
+      "recurring": "Weekly on Sundays"
+    },
+    {
+      "title": "Beginner Line Dancing",
+      "date": "2026-07-14",
+      "time": "6:30 PM",
+      "location": "Cowboy Church",
+      "description": "A fun, welcoming weekly gathering for beginners and friends.",
+      "featured": false,
+      "recurring": "Weekly on Tuesdays"
+    },
+    {
+      "title": "The Gathering \u2013 Wednesday Night Bible Study",
+      "date": "2026-07-15",
+      "time": "6:30 PM",
+      "location": "Cowboy Church",
+      "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
+      "featured": true,
+      "recurring": "Weekly on Wednesdays"
+    },
+    {
+      "title": "Communion & Hungry Cowboy Meal",
+      "date": "2026-07-19",
+      "time": "After 10:00 AM service",
+      "location": "Cowboy Church",
+      "description": "We celebrate communion during service and gather afterward for a meal with fellowship.",
+      "featured": true,
+      "recurring": "Third Sunday of each month"
+    }
+  ]
+}

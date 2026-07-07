@@ -6,24 +6,40 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
+  - name: "calendar"
+    label: "Church Calendar"
+    files:
+      - name: "events"
+        label: "Events"
+        file: "content/events.json"
+        fields:
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            summary: "{{fields.title}} - {{fields.date}}"
+            fields:
+              - {label: "Event Name", name: "title", widget: "string"}
+              - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
+              - {label: "Time", name: "time", widget: "string", required: false}
+              - {label: "Location", name: "location", widget: "string", required: false}
+              - {label: "Repeating Schedule", name: "recurring", widget: "string", required: false, hint: "Example: Weekly on Sundays, Third Sunday of each month"}
+              - {label: "Featured on Events Page", name: "featured", widget: "boolean", default: false, required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
   - name: "stories"
     label: "Stories & Photos"
-    folder: "content/stories"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Story", name: "body", widget: "markdown"}
-  - name: "events"
-    label: "Events"
-    folder: "content/events"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Event Name", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Time", name: "time", widget: "string", required: false}
-      - {label: "Location", name: "location", widget: "string", required: false}
-      - {label: "Description", name: "body", widget: "markdown"}
+    files:
+      - name: "stories"
+        label: "Stories"
+        file: "content/stories.json"
+        fields:
+          - label: "Stories"
+            name: "stories"
+            widget: "list"
+            summary: "{{fields.title}} - {{fields.date}}"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Summary", name: "summary", widget: "text", required: false}
+              - {label: "Story", name: "body", widget: "markdown", required: false}
+              - {label: "Featured", name: "featured", widget: "boolean", default: false, required: false}
