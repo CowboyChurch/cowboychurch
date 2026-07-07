@@ -25,10 +25,12 @@
       "featured": false
     },
     {
-      "featured": false,
-      "title": "A THING",
+      "featured": true,
+      "title": "Brian was here",
       "date": "2026-07-07",
-      "body": "it happened in a moment and then stopped"
+      "image": "assets/uploads/head.png",
+      "summary": "This is Brian",
+      "body": "He is Tall"
     }
   ]
 }
