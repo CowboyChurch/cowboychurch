@@ -4,8 +4,8 @@
       "title": "Welcome Home",
       "date": "2026-07-01",
       "image": "assets/images/Website Line Dancing/LD-1.JPG",
-      "summary": "A place to belong\u2026 where everyone feels at home. Come as you are\u2026 leave changed!",
-      "body": "A place to belong\u2026 where everyone feels at home. Come as you are\u2026 leave changed!",
+      "summary": "A place to belong… where everyone feels at home. Come as you are… leave changed!",
+      "body": "A place to belong… where everyone feels at home. Come as you are… leave changed!",
       "featured": true
     },
     {
@@ -23,6 +23,12 @@
       "summary": "Prayer is at the heart of everything we do, and our Prayer Team is ready to pray with you.",
       "body": "Prayer is at the heart of everything we do, and our Prayer Team is ready to pray with you.",
       "featured": false
+    },
+    {
+      "featured": false,
+      "title": "A THING",
+      "date": "2026-07-07",
+      "body": "it happened in a moment and then stopped"
     }
   ]
 }
