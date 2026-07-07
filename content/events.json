@@ -35,15 +35,6 @@
       "description": "We celebrate communion during service and gather afterward for a meal with fellowship.",
       "featured": true,
       "recurring": "Third Sunday of each month"
-    },
-    {
-      "featured": true,
-      "title": "Test Event",
-      "date": "2026-07-07",
-      "time": "3:33pm",
-      "location": "The Prayer Closet",
-      "recurring": "every tuesday",
-      "description": "You will love it!"
     }
   ]
 }
