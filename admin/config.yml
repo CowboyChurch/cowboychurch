@@ -9,7 +9,7 @@ backend:
   auth_token_endpoint: /sites/0ed0bae7-5143-4980-816f-b40488b7ca68/token
   gateway_url: https://gateway.decapbridge.com
 
-  # See who did what (optional)
+  # Shows who made each CMS change in GitHub commit history.
   commit_messages:
     create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
     update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
@@ -18,17 +18,15 @@ backend:
     deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
     openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
 
-# Enable PKCE fields (optional, recommended)
+# DecapBridge user profile fields.
 auth:
   email_claim: email
   first_name_claim: first_name
   last_name_claim: last_name
   avatar_url_claim: avatar_url
 
-# Better Decap + Bridge logo (optional)
+# DecapBridge branding and site link.
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-
-# Add site links in Decap CMS (optional)
 site_url: https://cowboychurch.netlify.app
 
 media_folder: "assets/uploads"
@@ -36,39 +34,104 @@ public_folder: "/assets/uploads"
 
 collections:
   - name: "calendar"
-    label: "Church Calendar"
+    label: "📅 Church Calendar"
+    description: >
+      Add and update church events here. Events marked as Featured will appear on the Events page.
+      Use this section for services, ministry gatherings, special events, and recurring church activities.
     files:
       - name: "events"
-        label: "Events"
+        label: "Upcoming Events"
         file: "content/events.json"
         fields:
           - label: "Events"
             name: "events"
             widget: "list"
-            summary: "{{fields.title}} - {{fields.date}}"
+            summary: "{{fields.date}} • {{fields.title}}"
+            minimize_collapsed: true
+            add_to_top: true
             fields:
-              - {label: "Event Name", name: "title", widget: "string"}
-              - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
-              - {label: "Time", name: "time", widget: "string", required: false}
-              - {label: "Location", name: "location", widget: "string", required: false}
-              - {label: "Repeating Schedule", name: "recurring", widget: "string", required: false, hint: "Example: Weekly on Sundays, Third Sunday of each month"}
-              - {label: "Featured on Events Page", name: "featured", widget: "boolean", default: false, required: false}
-              - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "Event Title"
+                name: "title"
+                widget: "string"
+                hint: "This title appears on the Church Calendar and Events page."
+              - label: "Event Date"
+                name: "date"
+                widget: "datetime"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                hint: "Choose the date of the event."
+              - label: "Event Time"
+                name: "time"
+                widget: "string"
+                required: false
+                hint: "Example: 10:00 AM, 6:30 PM, or After Service. Leave blank if there is no set time."
+              - label: "Location"
+                name: "location"
+                widget: "string"
+                required: false
+                hint: "Example: Sanctuary, Lobby, Fellowship Hall, or Off-site location."
+              - label: "Repeating Schedule"
+                name: "recurring"
+                widget: "string"
+                required: false
+                hint: "Example: Weekly on Sundays, Every Wednesday, Third Sunday of each month. Leave blank for one-time events."
+              - label: "Feature this Event?"
+                name: "featured"
+                widget: "boolean"
+                default: false
+                required: false
+                hint: "Turn this on if the event should be highlighted on the Events page."
+              - label: "Event Description"
+                name: "description"
+                widget: "text"
+                required: false
+                hint: "Add the main details people need to know about this event."
+
   - name: "stories"
-    label: "Stories & Photos"
+    label: "📖 Stories & Testimonies"
+    description: >
+      Add church stories, testimonies, ministry highlights, and photos here.
+      Featured stories can be used to highlight what God is doing at The Cowboy Church.
     files:
       - name: "stories"
-        label: "Stories"
+        label: "Church Stories"
         file: "content/stories.json"
         fields:
           - label: "Stories"
             name: "stories"
             widget: "list"
-            summary: "{{fields.title}} - {{fields.date}}"
+            summary: "{{fields.date}} • {{fields.title}}"
+            minimize_collapsed: true
+            add_to_top: true
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
-              - {label: "Image", name: "image", widget: "image", required: false}
-              - {label: "Summary", name: "summary", widget: "text", required: false}
-              - {label: "Story", name: "body", widget: "markdown", required: false}
-              - {label: "Featured", name: "featured", widget: "boolean", default: false, required: false}
+              - label: "Story Title"
+                name: "title"
+                widget: "string"
+                hint: "This title appears on the Stories & Photos page."
+              - label: "Story Date"
+                name: "date"
+                widget: "datetime"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                hint: "Choose the date this story or highlight should be associated with."
+              - label: "Story Photo"
+                name: "image"
+                widget: "image"
+                required: false
+                hint: "Landscape photos work best. Recommended width: 1600 pixels or larger."
+              - label: "Short Summary"
+                name: "summary"
+                widget: "text"
+                required: false
+                hint: "A short preview that can appear before the full story."
+              - label: "Full Story"
+                name: "body"
+                widget: "markdown"
+                required: false
+                hint: "Write the full story, testimony, or ministry highlight here."
+              - label: "Feature this Story?"
+                name: "featured"
+                widget: "boolean"
+                default: false
+                required: false
+                hint: "Turn this on if this story should be highlighted more prominently."
