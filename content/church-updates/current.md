@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Weekly Newsletter
 description: Click below to open this weeks newsletter
 button_text: July 16, 2026 -Party of the century
