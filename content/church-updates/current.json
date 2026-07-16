@@ -1,7 +1,7 @@
 {
-  "published": false,
-  "title": "Church Updates",
-  "description": "Read the latest news, upcoming events, prayer requests, and ministry updates from Cowboy Church.",
-  "button_text": "Read This Week's Update",
-  "url": ""
+  "published": true,
+  "title": "Weekly Newsletter",
+  "description": "Click below",
+  "button_text": "July 16, 2026",
+  "url": "https://mailchi.mp/cowboychurch/giddyupandrideonovertocowboychurch-6682825"
 }
