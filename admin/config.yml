@@ -159,15 +159,40 @@ collections:
                 hint: "Turn this on if this story should be highlighted more prominently."
 
   - name: "church-updates"
-    label: "Church Updates"
+    label: "📰 Manage Church Updates"
+    description: "Update the current newsletter or church announcement displayed on the home page."
     files:
       - name: "current-update"
-        label: "Current Church Update"
-        file: "content/church-updates/current.md"
+        label: "✏️ Edit Current Church Update"
+        file: "content/church-updates/current.json"
         fields:
-          - {label: "Visible", name: "published", widget: "boolean", default: true}
-          - {label: "Heading", name: "title", widget: "string", default: "Church Updates"}
-          - {label: "Description", name: "description", widget: "text", default: "Read the latest news, upcoming events, prayer requests, and ministry updates from Cowboy Church."}
-          - {label: "Button Text", name: "button_text", widget: "string", default: "Read This Week's Update"}
-          - {label: "Link", name: "url", widget: "string"}
+          - label: "Show on Home Page?"
+            name: "published"
+            widget: "boolean"
+            default: false
+            hint: "Turn this on when the update is ready to appear on the home page."
+
+          - label: "Heading"
+            name: "title"
+            widget: "string"
+            default: "Church Updates"
+            hint: "Example: This Week's Newsletter or Important Church Announcement."
+
+          - label: "Description"
+            name: "description"
+            widget: "text"
+            default: "Read the latest news, upcoming events, prayer requests, and ministry updates from Cowboy Church."
+            hint: "Briefly explain what visitors will find when they open the link."
+
+          - label: "Button Text"
+            name: "button_text"
+            widget: "string"
+            default: "Read This Week's Update"
+            hint: "Example: Read This Week's Newsletter or View Announcement."
+
+          - label: "Newsletter or Update Link"
+            name: "url"
+            widget: "string"
+            required: false
+            hint: "Paste the full public Mailchimp newsletter or announcement link, including https://."
 
