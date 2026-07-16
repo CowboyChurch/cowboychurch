@@ -28,6 +28,8 @@ site_url: https://cowboychurch.netlify.app
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
+# Uploaded CMS images will be stored in assets/uploads and referenced publicly as /assets/uploads/filename.
+
 collections:
   - name: "calendar"
     label: "📅 Manage Church Calendar"
@@ -37,13 +39,13 @@ collections:
         label: "🗓️ Edit Church Events"
         file: "content/events.json"
         fields:
-          - label: "Church Events List"
+          - label: "Event"
             name: "events"
             widget: "list"
             summary: "{{fields.date}} • {{fields.title}}"
             minimize_collapsed: true
             add_to_top: true
-            hint: "Click Add Church Events List to add a new event. Use Featured Event for events that should be highlighted."
+            hint: "Click Add Event to add a new calendar item. Turn on Featured Event for events that should be highlighted on the Events page."
             fields:
               - label: "Event Title"
                 name: "title"
@@ -101,13 +103,13 @@ collections:
         label: "📷 Edit Stories & Testimonies"
         file: "content/stories.json"
         fields:
-          - label: "Church Stories List"
+          - label: "Story or Photo Highlight"
             name: "stories"
             widget: "list"
             summary: "{{fields.date}} • {{fields.title}}"
             minimize_collapsed: true
             add_to_top: true
-            hint: "Click Add Church Stories List to add a new story, testimony, photo highlight, or ministry update."
+            hint: "Click Add Story or Photo Highlight to add a testimony, church photo, ministry highlight, or update."
             fields:
               - label: "Story Title"
                 name: "title"
@@ -155,3 +157,17 @@ collections:
                 default: false
                 required: false
                 hint: "Turn this on if this story should be highlighted more prominently."
+
+  - name: "church-updates"
+    label: "Church Updates"
+    files:
+      - name: "current-update"
+        label: "Current Church Update"
+        file: "content/church-updates/current.md"
+        fields:
+          - {label: "Visible", name: "published", widget: "boolean", default: true}
+          - {label: "Heading", name: "title", widget: "string", default: "Church Updates"}
+          - {label: "Description", name: "description", widget: "text", default: "Read the latest news, upcoming events, prayer requests, and ministry updates from Cowboy Church."}
+          - {label: "Button Text", name: "button_text", widget: "string", default: "Read This Week's Update"}
+          - {label: "Link", name: "url", widget: "string"}
+
