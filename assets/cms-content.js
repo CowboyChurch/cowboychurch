@@ -205,3 +205,73 @@ async function renderChurchUpdate() {
     section.hidden = true;
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const menuButton = document.querySelector(".menu-toggle");
+  const navigation = document.getElementById("main-navigation");
+
+  if (!menuButton || !navigation) return;
+
+  const closeMenu = () => {
+    navigation.classList.remove("is-open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "Open navigation menu");
+
+    navigation.querySelectorAll(".dropdown.is-open").forEach((dropdown) => {
+      dropdown.classList.remove("is-open");
+      const button = dropdown.querySelector(".dropbtn");
+      if (button) button.setAttribute("aria-expanded", "false");
+    });
+  };
+
+  menuButton.addEventListener("click", () => {
+    const willOpen = !navigation.classList.contains("is-open");
+    navigation.classList.toggle("is-open", willOpen);
+    menuButton.setAttribute("aria-expanded", String(willOpen));
+    menuButton.setAttribute(
+      "aria-label",
+      willOpen ? "Close navigation menu" : "Open navigation menu"
+    );
+  });
+
+  navigation.querySelectorAll(".dropbtn").forEach((button) => {
+    button.setAttribute("aria-expanded", "false");
+
+    button.addEventListener("click", () => {
+      if (window.innerWidth > 900) return;
+
+      const dropdown = button.closest(".dropdown");
+      const willOpen = !dropdown.classList.contains("is-open");
+
+      navigation.querySelectorAll(".dropdown.is-open").forEach((openDropdown) => {
+        if (openDropdown !== dropdown) {
+          openDropdown.classList.remove("is-open");
+          const openButton = openDropdown.querySelector(".dropbtn");
+          if (openButton) openButton.setAttribute("aria-expanded", "false");
+        }
+      });
+
+      dropdown.classList.toggle("is-open", willOpen);
+      button.setAttribute("aria-expanded", String(willOpen));
+    });
+  });
+
+  navigation.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", closeMenu);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (window.innerWidth > 900) return;
+    if (!navigation.classList.contains("is-open")) return;
+    if (navigation.contains(event.target) || menuButton.contains(event.target)) return;
+    closeMenu();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMenu();
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) closeMenu();
+  });
+});

@@ -12,7 +12,12 @@
 <div class="topbar">Sunday Worship at 10:00 AM • 17525 Central Ave NE, Ham Lake, MN • Everyone is welcome</div>
 <header>
 <div class="navwrap">
-<nav aria-label="Main navigation" class="nav">
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Open navigation menu">
+<span class="menu-toggle-line"></span>
+<span class="menu-toggle-line"></span>
+<span class="menu-toggle-line"></span>
+</button>
+<nav aria-label="Main navigation" class="nav" id="main-navigation">
 <a class="active" href="index.html">Home</a>
 <a href="new-here.html">New Here</a>
 <div class="dropdown">
@@ -160,6 +165,7 @@
 </p><div style="flex:1;display:flex;justify-content:center;align-items:center;"><img alt="Cowboy Church Logo" src="assets/images/Website Logo Files/White Church Logo.jpg" style="height:180px;width:auto;display:block;margin:0 auto;flex-shrink:0;max-width:100%;object-fit:contain;"/></div></div></div>
 </div>
 </footer>
+<script src="assets/navigation.js"></script>
 <script src="assets/cms-content.js"></script>
 <script>
   if (typeof renderChurchUpdate === 'function') {
