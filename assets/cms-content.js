@@ -206,6 +206,10 @@ async function renderChurchUpdate() {
   }
 }
 
+/* -------------------------------------------------- */
+/* Mobile Navigation */
+/* -------------------------------------------------- */
+
 document.addEventListener("DOMContentLoaded", () => {
   const menuButton = document.querySelector(".menu-toggle");
   const navigation = document.getElementById("main-navigation");
