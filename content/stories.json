@@ -1,15 +1,6 @@
 {
   "stories": [
     {
-      "featured": true,
-      "title": "This One",
-      "category": "Children's Ministry",
-      "date": "2026-07-30",
-      "image": "/assets/uploads/4.jpg",
-      "summary": "eyes-open.net",
-      "body": "llllllllll"
-    },
-    {
       "title": "Welcome Home",
       "date": "2026-07-01",
       "image": "assets/images/Website Line Dancing/LD-1.JPG",
