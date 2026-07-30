@@ -2,6 +2,14 @@
   "events": [
     {
       "featured": true,
+      "title": "Car Show",
+      "date": "2026-10-11",
+      "time": "Noon to 3 p.m.",
+      "location": "Cowboy Church Parking Lot",
+      "description": "eyes-open.net"
+    },
+    {
+      "featured": true,
       "title": "Sunday Message: Why Can't I Let Go?",
       "date": "2026-07-26",
       "time": "10:00 a.m. ",
