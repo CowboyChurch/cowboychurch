@@ -1,9 +1,12 @@
 {
   "events": [
     {
-      "featured": false,
-      "title": "mmmmm",
-      "date": "2026-07-30"
+      "featured": true,
+      "title": "7th Annual Cowboy Church Power & Prayer Classic Car & Bike Show 2026",
+      "date": "2026-10-11",
+      "time": "Noon to 3 p.m.",
+      "location": "The Cowboy Church Parking Lot",
+      "description": "Rev up your engines and join us for the 7th Annual Cowboy Church Classic Car & Bike Show – Power & Prayer 2026! \nWhether you're showing off your favorite ride or simply coming to enjoy the incredible lineup of classic cars and motorcycles, there's something for everyone. This family-friendly event features food, prizes, a 50/50 raffle, Hot Wheels Car Show and a coloring contest for the kids, and trophies for outstanding entries. Spectating is free, and all makes and models are welcome. Car and Bike entry fee of $15.00 \nStart your day by worshiping with us at our 10:00 a.m. service, then stay for an afternoon of fellowship, fun, and horsepower from Noon to 3:00 p.m. We look forward to seeing you there!\n\nRegistration Link Coming Soon!"
     },
     {
       "featured": true,
