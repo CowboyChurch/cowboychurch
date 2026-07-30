@@ -1,12 +1,9 @@
 {
   "events": [
     {
-      "featured": true,
-      "title": "Car Show",
-      "date": "2026-10-11",
-      "time": "Noon to 3 p.m.",
-      "location": "Cowboy Church Parking Lot",
-      "description": "https://www.eyes-open.net"
+      "featured": false,
+      "title": "mmmmm",
+      "date": "2026-07-30"
     },
     {
       "featured": true,
