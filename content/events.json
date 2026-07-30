@@ -2,6 +2,15 @@
   "events": [
     {
       "featured": true,
+      "title": "Intercessory Prayer",
+      "description": "Praying for one another, our church, our community, and our world. \nA time of shared prayer & encouragement.\nWe pray for personal needs & weekly prayer requests.",
+      "recurring": "Weekly",
+      "location": "Prayer Room",
+      "time": "6:30 p.m.",
+      "date": "2026-08-05"
+    },
+    {
+      "featured": true,
       "title": "Youth Night",
       "date": "2026-08-05",
       "time": "6:30 p.m.",
