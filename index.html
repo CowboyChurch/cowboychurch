@@ -6,7 +6,7 @@
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Home | Cowboy Church</title>
 <meta content="Cowboy Church in Ham Lake, Minnesota." name="description"/>
-<link href="assets/style.css" rel="stylesheet"/>
+<link href="assets/style.css?v=20260801-2" rel="stylesheet"/>
 </head>
 <body>
 <div class="topbar">Sunday Worship at 10:00 AM • 17525 Central Ave NE, Ham Lake, MN • Everyone is welcome</div>
@@ -132,64 +132,79 @@
 </footer>
 <script>
 (function () {
-  "use strict";
+  function initializeHomeNavigation() {
+    var menuButton = document.querySelector('.menu-toggle');
+    var navigation = document.getElementById('main-navigation');
+    if (!menuButton || !navigation || menuButton.dataset.homeMenuReady === 'true') return;
+    menuButton.dataset.homeMenuReady = 'true';
 
-  function closeDropdowns(except) {
-    document.querySelectorAll(".dropdown.is-open").forEach(function (dropdown) {
-      if (dropdown !== except) {
-        dropdown.classList.remove("is-open");
-        var button = dropdown.querySelector(".dropbtn");
-        if (button) button.setAttribute("aria-expanded", "false");
-      }
-    });
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    var menuButton = document.querySelector(".menu-toggle");
-    var nav = document.getElementById("main-navigation");
-
-    if (menuButton && nav) {
-      menuButton.addEventListener("click", function () {
-        var opening = !nav.classList.contains("is-open");
-        nav.classList.toggle("is-open", opening);
-        menuButton.setAttribute("aria-expanded", String(opening));
-        if (!opening) closeDropdowns();
+    function closeMenu() {
+      navigation.classList.remove('is-open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation menu');
+      navigation.querySelectorAll('.dropdown.is-open').forEach(function (dropdown) {
+        dropdown.classList.remove('is-open');
+        var button = dropdown.querySelector('.dropbtn');
+        if (button) button.setAttribute('aria-expanded', 'false');
       });
     }
 
-    document.querySelectorAll(".dropbtn").forEach(function (button) {
-      button.addEventListener("click", function (event) {
-        if (window.matchMedia("(max-width: 900px)").matches) {
-          event.preventDefault();
-          var dropdown = button.closest(".dropdown");
-          var opening = !dropdown.classList.contains("is-open");
-          closeDropdowns(dropdown);
-          dropdown.classList.toggle("is-open", opening);
-          button.setAttribute("aria-expanded", String(opening));
-        }
+    menuButton.addEventListener('click', function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var willOpen = !navigation.classList.contains('is-open');
+      navigation.classList.toggle('is-open', willOpen);
+      menuButton.setAttribute('aria-expanded', String(willOpen));
+      menuButton.setAttribute('aria-label', willOpen ? 'Close navigation menu' : 'Open navigation menu');
+    });
+
+    navigation.querySelectorAll('.dropbtn').forEach(function (button) {
+      button.setAttribute('aria-expanded', 'false');
+      button.addEventListener('click', function (event) {
+        if (window.innerWidth > 900) return;
+        event.preventDefault();
+        event.stopPropagation();
+        var dropdown = button.closest('.dropdown');
+        if (!dropdown) return;
+        var willOpen = !dropdown.classList.contains('is-open');
+        navigation.querySelectorAll('.dropdown.is-open').forEach(function (openDropdown) {
+          if (openDropdown !== dropdown) {
+            openDropdown.classList.remove('is-open');
+            var openButton = openDropdown.querySelector('.dropbtn');
+            if (openButton) openButton.setAttribute('aria-expanded', 'false');
+          }
+        });
+        dropdown.classList.toggle('is-open', willOpen);
+        button.setAttribute('aria-expanded', String(willOpen));
       });
     });
 
-    document.addEventListener("click", function (event) {
-      if (!event.target.closest("header")) {
-        if (nav) nav.classList.remove("is-open");
-        if (menuButton) menuButton.setAttribute("aria-expanded", "false");
-        closeDropdowns();
-      }
+    navigation.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMenu);
     });
 
-    window.addEventListener("resize", function () {
-      if (window.innerWidth > 900) {
-        if (nav) nav.classList.remove("is-open");
-        if (menuButton) menuButton.setAttribute("aria-expanded", "false");
-        closeDropdowns();
-      }
+    document.addEventListener('click', function (event) {
+      if (window.innerWidth > 900 || !navigation.classList.contains('is-open')) return;
+      if (!navigation.contains(event.target) && !menuButton.contains(event.target)) closeMenu();
     });
-  });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') closeMenu();
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 900) closeMenu();
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeHomeNavigation, { once: true });
+  } else {
+    initializeHomeNavigation();
+  }
 })();
-
 </script>
-<script src="assets/cms-content.js"></script>
+<script src="assets/cms-content.js?v=20260801-2"></script>
 <script>
   if (typeof renderChurchUpdate === 'function') {
     renderChurchUpdate();
