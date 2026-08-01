@@ -130,24 +130,13 @@
 </p><div style="flex:1;display:flex;justify-content:center;align-items:center;"><img alt="Cowboy Church Logo" src="assets/images/Website Logo Files/White Church Logo.jpg" style="height:180px;width:auto;display:block;margin:0 auto;flex-shrink:0;max-width:100%;object-fit:contain;"/></div></div></div>
 </div>
 </footer>
-<script src="assets/navigation.js"></script>
+
+<script src="assets/navigation.js?v=20260801-3"></script>
 <script src="assets/cms-content.js?v=20260801-2"></script>
 <script>
   if (typeof renderChurchUpdate === 'function') {
     renderChurchUpdate();
   }
 </script>
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('init', user => {
-        if (!user) {
-          window.netlifyIdentity.on('login', () => {
-            document.location.href = '/admin/';
-          });
-        }
-      });
-    }
-  </script>
 </body>
 </html>
