@@ -25,31 +25,92 @@ function formatDate(value) {
   });
 }
 
-function eventCard(event) {
-  const date = formatDate(event.date);
+function escapeHTML(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
 
-  const recurring = event.recurring
-    ? `<p class="small"><b>Repeats:</b> ${event.recurring}</p>`
+function safeWebUrl(value) {
+  if (typeof value !== "string" || !value.trim()) return "";
+
+  try {
+    const url = new URL(value.trim(), window.location.href);
+    return ["http:", "https:", "mailto:", "tel:"].includes(url.protocol)
+      ? url.href
+      : "";
+  } catch (error) {
+    return "";
+  }
+}
+
+function linkifyText(value) {
+  const escaped = escapeHTML(value);
+  const urlPattern = /((?:https?:\/\/|www\.)[^\s<]+)/gi;
+
+  return escaped.replace(urlPattern, (match) => {
+    const trailing = match.match(/[.,!?;:)]+$/)?.[0] || "";
+    const cleanMatch = trailing ? match.slice(0, -trailing.length) : match;
+    const href = cleanMatch.toLowerCase().startsWith("www.")
+      ? `https://${cleanMatch}`
+      : cleanMatch;
+    const safeHref = safeWebUrl(href);
+
+    if (!safeHref) return match;
+
+    return `<a href="${escapeHTML(safeHref)}" target="_blank" rel="noopener noreferrer">${cleanMatch}</a>${trailing}`;
+  });
+}
+
+function eventCard(event) {
+  const date = escapeHTML(formatDate(event.date));
+  const imageUrl = safeWebUrl(event.image);
+  const buttonUrl = safeWebUrl(event.button_url);
+  const buttonText = typeof event.button_text === "string"
+    ? event.button_text.trim()
+    : "";
+
+  const image = imageUrl
+    ? `<img class="moment-image" src="${escapeHTML(imageUrl)}" alt="${escapeHTML(event.title || "Cowboy Church event")}">`
+    : "";
+
+  const repeatingSchedule = [event.recurring, event.recurring_details]
+    .filter((value) => typeof value === "string" && value.trim())
+    .map((value) => escapeHTML(value.trim()))
+    .join(" — ");
+
+  const recurring = repeatingSchedule
+    ? `<p class="small">${repeatingSchedule}</p>`
+    : "";
+
+  const button = buttonUrl && buttonText
+    ? `<p><a class="btn outline event-button" href="${escapeHTML(buttonUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(buttonText)}</a></p>`
     : "";
 
   return `
-    <div class="moment">
+    <div class="moment${image ? " has-image" : ""}">
+      ${image}
+
       <strong>
         ${date}<br>
-        ${event.time || ""}
+        ${escapeHTML(event.time || "")}
       </strong>
 
       <span>
-        <b>${event.title || ""}</b><br>
-        ${event.description || ""}
+        <b>${escapeHTML(event.title || "")}</b><br>
+        ${linkifyText(event.description || "")}
 
         ${
           event.location
-            ? `<br><span class="small">${event.location}</span>`
+            ? `<br><span class="small">${linkifyText(event.location)}</span>`
             : ""
         }
 
         ${recurring}
+        ${button}
       </span>
     </div>
   `;

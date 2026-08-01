@@ -393,6 +393,21 @@ p{margin:0 0 1rem}
 
 .moment strong{color:var(--accentDark)}
 
+.moment.has-image{
+  grid-template-columns:180px 160px 1fr;
+}
+
+.moment-image{
+  width:100%;
+  height:140px;
+  object-fit:cover;
+  border-radius:16px;
+}
+
+.event-button{
+  margin-top:10px;
+}
+
 /* Forms */
 .form{
   display:grid;
@@ -692,7 +707,8 @@ iframe{
     grid-template-columns:1fr;
   }
 
-  .moment{grid-template-columns:1fr}
+  .moment,
+  .moment.has-image{grid-template-columns:1fr}
 
   .hero{min-height:480px}
 

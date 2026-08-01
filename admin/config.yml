@@ -94,69 +94,21 @@ collections:
                 widget: "text"
                 required: false
                 hint: "Add the details visitors need to know: who it is for, what to expect, and any registration information."
-
-  - name: "stories"
-    label: "📖 Manage Stories & Photos"
-    description: "Add testimonies, ministry highlights, church photos, and stories from the life of The Cowboy Church."
-    files:
-      - name: "stories"
-        label: "📷 Edit Stories & Testimonies"
-        file: "content/stories.json"
-        fields:
-          - label: "Story or Photo Highlight"
-            name: "stories"
-            widget: "list"
-            summary: "{{fields.date}} • {{fields.title}}"
-            minimize_collapsed: true
-            add_to_top: true
-            hint: "Click Add Story or Photo Highlight to add a testimony, church photo, ministry highlight, or update."
-            fields:
-              - label: "Story Title"
-                name: "title"
-                widget: "string"
-                hint: "This title appears on the Stories & Photos page."
-              - label: "Story Type"
-                name: "category"
-                widget: "select"
-                required: false
-                hint: "Choose the kind of story or highlight this is."
-                options:
-                  - "Testimony"
-                  - "Ministry Highlight"
-                  - "Church Family"
-                  - "Children's Ministry"
-                  - "Youth Ministry"
-                  - "Men's Ministry"
-                  - "Women's Ministry"
-                  - "Community Outreach"
-                  - "Photos"
-              - label: "Story Date"
-                name: "date"
-                widget: "datetime"
-                date_format: "YYYY-MM-DD"
-                time_format: false
-                hint: "Choose the date connected with this story or photo highlight."
-              - label: "Story Photo"
+              - label: "Event Photo"
                 name: "image"
                 widget: "image"
                 required: false
-                hint: "Upload or choose a photo. Landscape photos work best. Recommended width: 1600 pixels or larger."
-              - label: "Short Website Summary"
-                name: "summary"
-                widget: "text"
+                hint: "Optional. Upload or choose a landscape photo to display on the left side of the event."
+              - label: "Button Text"
+                name: "button_text"
+                widget: "string"
                 required: false
-                hint: "A short preview shown before the full story. Keep this to one or two sentences."
-              - label: "Full Story / Testimony"
-                name: "body"
-                widget: "markdown"
+                hint: "Optional. Example: Register, Learn More, or Get Directions. A button appears only when both button fields are completed."
+              - label: "Button Link"
+                name: "button_url"
+                widget: "string"
                 required: false
-                hint: "Write the full story, testimony, ministry highlight, or photo description here."
-              - label: "Featured Story?"
-                name: "featured"
-                widget: "boolean"
-                default: false
-                required: false
-                hint: "Turn this on if this story should be highlighted more prominently."
+                hint: "Optional. Paste the full link, including https://. A button appears only when both button fields are completed."
 
   - name: "church-updates"
     label: "📰 Manage Church Updates"
