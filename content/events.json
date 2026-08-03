@@ -2,6 +2,14 @@
   "events": [
     {
       "featured": true,
+      "title": "Craft Show and Bake Sale",
+      "date": "2026-11-07",
+      "time": "10 a.m. to 4 p.m.",
+      "location": "The Cowboy Church",
+      "description": "Craft Show and Bake Sale - More information coming soon!"
+    },
+    {
+      "featured": true,
       "title": "Intercessory Prayer",
       "description": "Praying for one another, our church, our community, and our world. \nA time of shared prayer & encouragement.\nWe pray for personal needs & weekly prayer requests.",
       "recurring": "Weekly",
