@@ -2,6 +2,23 @@
   "events": [
     {
       "featured": true,
+      "description": "Have you ever prayed and wondered if anyone was listening? If you've wrestled with silence, disappointment, or unanswered prayers - you're not alone.\nDaniel prayed for 21 days before discovering that God had heard him from the very first day. This Sunday at 10:00 am, join us at Cowboy Church (Hwy. 65 and Crosstown in Ham Lake) to discover why God's silence doesn't mean God's absence.\n",
+      "title": "SUNDAY MESSAGE: WHY AREN'T MY PRAYERS ANSWERED?",
+      "date": "2026-08-09",
+      "time": "10 a.m.",
+      "location": "The Cowboy Church",
+      "image": "/assets/uploads/2a8061a6-ca1c-4a34-a98e-33c2f43b3c02.png"
+    },
+    {
+      "featured": true,
+      "title": "Craft Show and Bake Sale",
+      "date": "2026-11-07",
+      "time": "10 a.m. to 4 p.m.",
+      "location": "The Cowboy Church",
+      "description": "Craft Show and Bake Sale - More information coming soon!"
+    },
+    {
+      "featured": true,
       "title": "Intercessory Prayer",
       "description": "Praying for one another, our church, our community, and our world. \nA time of shared prayer & encouragement.\nWe pray for personal needs & weekly prayer requests.",
       "recurring": "Weekly",
@@ -21,7 +38,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-08-02",
+      "date": "2026-08-09",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -39,19 +56,22 @@
     {
       "featured": true,
       "title": "Men's Ministry Breakfast",
-      "date": "2026-08-01",
+      "date": "2026-09-05",
       "time": "8 - 9:30 a.m.",
       "location": "The Cowboy Church",
       "recurring": "Monthly",
       "description": "Come and share real life together, eat some good food, laugh and have fun!\nBring food to share - but not required!\n"
     },
     {
-      "featured": true,
-      "title": "7th Annual Cowboy Church Power & Prayer Classic Car & Bike Show 2026",
-      "date": "2026-10-11",
+      "button_url": "https://pci.jotform.com/form/262176004433146",
       "time": "Noon to 3 p.m.",
+      "featured": true,
+      "date": "2026-10-11",
       "location": "The Cowboy Church Parking Lot",
-      "description": "Rev up your engines and join us for the 7th Annual Cowboy Church Classic Car & Bike Show – Power & Prayer 2026! \nWhether you're showing off your favorite ride or simply coming to enjoy the incredible lineup of classic cars and motorcycles, there's something for everyone. This family-friendly event features food, prizes, a 50/50 raffle, Hot Wheels Car Show and a coloring contest for the kids, and trophies for outstanding entries. Spectating is free, and all makes and models are welcome. Car and Bike entry fee of $15.00 \nStart your day by worshiping with us at our 10:00 a.m. service, then stay for an afternoon of fellowship, fun, and horsepower from Noon to 3:00 p.m. We look forward to seeing you there!\n\nRegistration Link Coming Soon!"
+      "title": "7th Annual Cowboy Church Power & Prayer Classic Car & Bike Show 2026",
+      "button_text": "Click Here to Register and Pay",
+      "image": "/assets/uploads/car-show-jpeg-flyer.jpg",
+      "description": "Rev up your engines and join us for the 7th Annual Cowboy Church Classic Car & Bike Show – Power & Prayer 2026! \nWhether you're showing off your favorite ride or simply coming to enjoy the incredible lineup of classic cars and motorcycles, there's something for everyone. This family-friendly event features food trucks, raffle prize drawings, quilt raffle, 50/50 raffle, Hot Wheels Car Show and a coloring contest for the kids, and trophies for outstanding entries. Spectating is free, and all makes and models are welcome. Car and Bike entry fee of $15.00 \nStart your day by worshiping with us at our 10:00 a.m. service, and then stay for an afternoon of fellowship, fun, and horsepower from Noon to 3:00 p.m. While you are spectating, enjoy some music by DJ T-Dubs! Dash Plaque First 100 Registered, Gate Registration Begins at 9 a.m., Car Show Opens at Noon, 13 Tropies Awarded at 2:45 p.m., Best in Show, Pastor's Choice, Top 10, Best Motorcycle! We look forward to seeing you there!\n\n\n\n"
     },
     {
       "title": "Beginner Line Dancing - Cancelled this week, Aug. 4th due to Nite to Unite Community Events",
