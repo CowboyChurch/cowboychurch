@@ -2,15 +2,6 @@
   "events": [
     {
       "featured": true,
-      "description": "Have you ever prayed and wondered if anyone was listening? If you've wrestled with silence, disappointment, or unanswered prayers - you're not alone.\nDaniel prayed for 21 days before discovering that God had heard him from the very first day. This Sunday at 10:00 am, join us at Cowboy Church (Hwy. 65 and Crosstown in Ham Lake) to discover why God's silence doesn't mean God's absence.\n",
-      "title": "SUNDAY MESSAGE: WHY AREN'T MY PRAYERS ANSWERED?",
-      "date": "2026-08-09",
-      "time": "10 a.m.",
-      "location": "The Cowboy Church",
-      "image": "/assets/uploads/2a8061a6-ca1c-4a34-a98e-33c2f43b3c02.png"
-    },
-    {
-      "featured": true,
       "title": "Craft Show and Bake Sale",
       "date": "2026-11-07",
       "time": "10 a.m. to 4 p.m.",
@@ -24,12 +15,12 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-08-05"
+      "date": "2026-08-12"
     },
     {
       "featured": true,
       "title": "Youth Night",
-      "date": "2026-08-05",
+      "date": "2026-08-12",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -38,7 +29,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-08-09",
+      "date": "2026-08-16",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -74,8 +65,8 @@
       "description": "Rev up your engines and join us for the 7th Annual Cowboy Church Classic Car & Bike Show – Power & Prayer 2026! \nWhether you're showing off your favorite ride or simply coming to enjoy the incredible lineup of classic cars and motorcycles, there's something for everyone. This family-friendly event features food trucks, raffle prize drawings, quilt raffle, 50/50 raffle, Hot Wheels Car Show and a coloring contest for the kids, and trophies for outstanding entries. Spectating is free, and all makes and models are welcome. Car and Bike entry fee of $15.00 \nStart your day by worshiping with us at our 10:00 a.m. service, and then stay for an afternoon of fellowship, fun, and horsepower from Noon to 3:00 p.m. While you are spectating, enjoy some music by DJ T-Dubs! Dash Plaque First 100 Registered, Gate Registration Begins at 9 a.m., Car Show Opens at Noon, 13 Tropies Awarded at 2:45 p.m., Best in Show, Pastor's Choice, Top 10, Best Motorcycle! We look forward to seeing you there!\n\n\n\n"
     },
     {
-      "title": "Beginner Line Dancing - Cancelled this week, Aug. 4th due to Nite to Unite Community Events",
-      "date": "2026-08-04",
+      "title": "Beginner Line Dancing ",
+      "date": "2026-08-11",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\nBeginner Line Dancing - Cancelled this week, Aug. 4th due to Nite to Unite Community Events",
@@ -84,7 +75,7 @@
     },
     {
       "title": "The Gathering – Wednesday Night Bible Study",
-      "date": "2026-08-05",
+      "date": "2026-08-12",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
