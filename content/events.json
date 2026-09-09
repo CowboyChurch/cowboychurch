@@ -1,6 +1,17 @@
 {
   "events": [
     {
+      "recurring_details": "Every Third Sunday of the Month",
+      "time": "12:30-2:30 p.m.",
+      "featured": true,
+      "date": "2026-09-20",
+      "location": "Multi-Purpose Room",
+      "title": "Jam Session",
+      "image": "/assets/uploads/screenshot-2026-09-09-092308.jpg",
+      "description": "All are welcome! Musicians and spectators! \nJoin us for church service at 10 a.m.\nStay for lunch in the Hungry Cowboy Cafe.\nThen let's Jam from 12:30 - 2:30 p.m. in the Multi-Purpose room off the gym.\nStay and linger with the music, it's good for the soul!",
+      "recurring": "Monthly"
+    },
+    {
       "featured": true,
       "title": "Sunday Message: Did We Just Happen?",
       "date": "2026-09-13",
@@ -75,7 +86,7 @@
     },
     {
       "title": "Beginner Line Dancing ",
-      "date": "2026-09-08",
+      "date": "2026-09-15",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\nBeginner Line Dancing - Cancelled this week, Aug. 4th due to Nite to Unite Community Events",
