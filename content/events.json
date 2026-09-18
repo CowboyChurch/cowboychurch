@@ -109,7 +109,8 @@
       "location": "Cowboy Church",
       "description": "We celebrate communion during service and gather afterward for a meal with fellowship.",
       "featured": true,
-      "recurring": "Monthly"
+      "recurring": "Monthly",
+      "image": "/assets/uploads/picture1.png"
     }
   ]
 }
