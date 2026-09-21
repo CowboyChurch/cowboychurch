@@ -4,7 +4,7 @@
       "recurring_details": "Every Third Sunday of the Month",
       "time": "12:30-2:30 p.m.",
       "featured": true,
-      "date": "2026-09-20",
+      "date": "2026-10-18",
       "location": "Multi-Purpose Room",
       "title": "Jam Session",
       "image": "/assets/uploads/screenshot-2026-09-09-092308.jpg",
@@ -49,7 +49,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-09-20",
+      "date": "2026-09-27",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -104,7 +104,7 @@
     },
     {
       "title": "Hungry Cowboy Meal",
-      "date": "2026-09-20",
+      "date": "2026-10-18",
       "time": "After 10:00 AM service",
       "location": "Cowboy Church",
       "description": "We celebrate communion during service and gather afterward for a meal with fellowship.",
