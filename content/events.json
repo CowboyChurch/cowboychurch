@@ -26,7 +26,8 @@
       "date": "2026-11-07",
       "time": "10 a.m. to 4 p.m.",
       "location": "The Cowboy Church",
-      "description": "Craft Show and Bake Sale - More information coming soon!"
+      "description": "Craft Show and Bake Sale - More information coming soon!",
+      "image": "/assets/uploads/5bb867d0-2d03-4517-9c8a-d91c8115b8f1.png"
     },
     {
       "featured": true,
@@ -35,12 +36,12 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-09-23"
+      "date": "2026-09-30"
     },
     {
       "featured": true,
       "title": "Youth Night",
-      "date": "2026-09-23",
+      "date": "2026-09-30",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -86,7 +87,7 @@
     },
     {
       "title": "Beginner Line Dancing ",
-      "date": "2026-09-22",
+      "date": "2026-09-29",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
@@ -95,7 +96,7 @@
     },
     {
       "title": "The Gathering – Wednesday Night Bible Study ",
-      "date": "2026-09-23",
+      "date": "2026-09-30",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
