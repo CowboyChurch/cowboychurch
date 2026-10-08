@@ -1,6 +1,17 @@
 {
   "events": [
     {
+      "recurring_details": "Every Tuesday Evening at 5:00 p.m.",
+      "time": "5:00 p.m.",
+      "featured": true,
+      "date": "2026-12-08",
+      "location": "The Cowboy Church",
+      "title": "GriefShare - Grief Support Group",
+      "image": "/assets/uploads/gs-logo-web.webp",
+      "description": "The loss of a loved one turns your world upside down.\nGriefShare support groups help you find the path toward stability, healing, and hope.\n\nPlease join us: Weekly starting at 5:00 PM, Tuesday, December 8th.\nRegister here: https://find.griefshare.org/groups/307059\nFeel free to contact Pastor Jeremiah at jeremiahw@cowboychurch.org, or visit griefshare.org, if you have questions or would like more information.\n",
+      "recurring": "Weekly"
+    },
+    {
       "recurring_details": "Every Third Sunday of the Month",
       "time": "12:30-2:30 p.m.",
       "featured": true,
