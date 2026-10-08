@@ -36,12 +36,12 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-10-07"
+      "date": "2026-10-14"
     },
     {
       "featured": true,
       "title": "Youth Night",
-      "date": "2026-10-07",
+      "date": "2026-10-14",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -50,7 +50,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-10-04",
+      "date": "2026-10-11",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -67,8 +67,8 @@
     },
     {
       "featured": true,
-      "title": "Men's Ministry Breakfast",
-      "date": "2026-10-03",
+      "title": "Men's Ministry Breakfast (Off-Site for Nov. due to Craft Show)",
+      "date": "2026-11-07",
       "time": "8 - 9:30 a.m.",
       "location": "The Cowboy Church",
       "recurring": "Monthly",
@@ -87,7 +87,7 @@
     },
     {
       "title": "Beginner Line Dancing ",
-      "date": "2026-10-06",
+      "date": "2026-10-13",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
@@ -96,7 +96,7 @@
     },
     {
       "title": "The Gathering – Wednesday Night Bible Study ",
-      "date": "2026-10-07",
+      "date": "2026-10-14",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
