@@ -24,12 +24,12 @@
     },
     {
       "featured": true,
-      "title": "Sunday Message: Built for More",
-      "date": "2026-10-11",
+      "title": "Sunday Message: Built for the Storm",
+      "date": "2026-10-18",
       "time": "10 am",
       "location": "The Cowboy Church",
-      "description": "WHAT IF YOUR BEST CHAPTER IS STILL AHEAD?\nMaybe life hasn’t turned out exactly like you expected. Maybe you’ve wondered if your greatest opportunities are behind you—or if there could still be something more. What if God isn’t finished with your story? This Sunday, Pastor Rick shares an encouraging message called BUILT FOR MORE—a message about discovering purpose, hope, and what God can still do in your life. Join us at 10:00 a.m. this Sunday at Cowboy Church, Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. Stay for our CAR SHOW after the service this week.  You belong here!\n\n\n\n\n\n\n\n\n",
-      "image": "/assets/uploads/image-promo-10-11-26-built-for-more_final1.jpg"
+      "description": "What do you do when life’s storms hit without warning?\nBUILT FOR THE STORM\nFaith That Holds When Life Gets Hard\nGENESIS 6\nHealth concerns. Family struggles. An uncertain future. We can’t always control the storm—but we can learn to trust God through it. Join us this Sunday for an encouraging, practical look at Noah’s story, and hope for whatever you’re facing.\nCOWBOY CHURCH\nSunday, October 18 | 10:00 AM\nHwy 65 & Crosstown Blvd | Ham Lake, MN\nCome as you are. You belong here!\n\n\n\n\n\n\n\n\n\n",
+      "image": "/assets/uploads/image-built-for-the-storm.jpg"
     },
     {
       "featured": true,
@@ -47,12 +47,12 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-10-14"
+      "date": "2026-10-21"
     },
     {
       "featured": true,
       "title": "Youth Night",
-      "date": "2026-10-14",
+      "date": "2026-10-21",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -61,7 +61,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-10-11",
+      "date": "2026-10-18",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -70,7 +70,7 @@
     {
       "featured": true,
       "title": "Women's Ministry Breakfast",
-      "date": "2026-10-10",
+      "date": "2026-11-14",
       "time": "9 - 11 a.m.",
       "location": "The Cowboy Church",
       "recurring": "Monthly",
@@ -86,19 +86,8 @@
       "description": "Come and share real life together, eat some good food, laugh and have fun!\nBring food to share - but not required!\n"
     },
     {
-      "button_url": "https://pci.jotform.com/form/262176004433146",
-      "time": "Noon to 3 p.m.",
-      "featured": true,
-      "date": "2026-10-11",
-      "location": "The Cowboy Church Parking Lot",
-      "title": "7th Annual Cowboy Church Power & Prayer Classic Car & Bike Show 2026",
-      "button_text": "Click Here to Register and Pay",
-      "image": "",
-      "description": "Rev up your engines and join us for the 7th Annual Cowboy Church Classic Car & Bike Show – Power & Prayer 2026! \nWhether you're showing off your favorite ride or simply coming to enjoy the incredible lineup of classic cars and motorcycles, there's something for everyone. This family-friendly event features food trucks, raffle prize drawings, quilt raffle, 50/50 raffle, Hot Wheels Car Show and a coloring contest for the kids, and trophies for outstanding entries. Spectating is free, and all makes and models are welcome. Car and Bike entry fee of $15.00 \nStart your day by worshiping with us at our 10:00 a.m. service, and then stay for an afternoon of fellowship, fun, and horsepower from Noon to 3:00 p.m. While you are spectating, enjoy some music by DJ T-Dubs! Dash Plaque First 100 Registered, Gate Registration Begins at 9 a.m., Car Show Opens at Noon, 13 Tropies Awarded at 2:45 p.m., Best in Show, Pastor's Choice, Top 10, Best Motorcycle! We look forward to seeing you there!\n\n\n\n"
-    },
-    {
       "title": "Beginner Line Dancing ",
-      "date": "2026-10-13",
+      "date": "2026-10-20",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
@@ -107,7 +96,7 @@
     },
     {
       "title": "The Gathering – Wednesday Night Bible Study ",
-      "date": "2026-10-14",
+      "date": "2026-10-21",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
