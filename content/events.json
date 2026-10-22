@@ -15,7 +15,7 @@
       "recurring_details": "Every Third Sunday of the Month",
       "time": "12:30-2:30 p.m.",
       "featured": true,
-      "date": "2026-10-18",
+      "date": "2026-11-15",
       "location": "Multi-Purpose Room",
       "title": "Jam Session",
       "image": "/assets/uploads/screenshot-2026-09-09-092308.jpg",
@@ -24,12 +24,12 @@
     },
     {
       "featured": true,
-      "title": "Sunday Message: Built for the Storm",
-      "date": "2026-10-18",
+      "title": "Sunday Message: A Brand New Start",
+      "date": "2026-10-25",
       "time": "10 am",
       "location": "The Cowboy Church",
-      "description": "What do you do when life’s storms hit without warning?\nBUILT FOR THE STORM\nFaith That Holds When Life Gets Hard\nGENESIS 6\nHealth concerns. Family struggles. An uncertain future. We can’t always control the storm—but we can learn to trust God through it. Join us this Sunday for an encouraging, practical look at Noah’s story, and hope for whatever you’re facing.\nCOWBOY CHURCH\nSunday, October 18 | 10:00 AM\nHwy 65 & Crosstown Blvd | Ham Lake, MN\nCome as you are. You belong here!\n\n\n\n\n\n\n\n\n\n",
-      "image": "/assets/uploads/image-built-for-the-storm.jpg"
+      "description": "A BRAND-NEW START: Is God Saying Go ... Or Not Yet?\nA new job? A big move? An unexpected opportunity? We all face moments when we're ready for something different. But what if the biggest challenge isn't deciding WHERE to go, but knowing WHEN to go? What if we're overlooking something important?\nThis Sunday, October 25, we'll discover some fascinating lessons from Noah's remarkable new beginning. You might be surprised by what his story reveals about the decisions we face, the opportunities ahead, and what really makes a BRAND-NEW START successful!\nJoin us at 10:00 a.m. at Cowboy Church, Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. You belong here!\n\n\n\n\n\n\n\n\n\n\n",
+      "image": "/assets/uploads/image-brand-new-start-genesis-8-9.jpg"
     },
     {
       "featured": true,
@@ -47,12 +47,12 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-10-21"
+      "date": "2026-10-28"
     },
     {
       "featured": true,
       "title": "Youth Night",
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -61,7 +61,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-10-18",
+      "date": "2026-10-25",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -87,7 +87,7 @@
     },
     {
       "title": "Beginner Line Dancing ",
-      "date": "2026-10-20",
+      "date": "2026-10-27",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
@@ -96,7 +96,7 @@
     },
     {
       "title": "The Gathering – Wednesday Night Bible Study ",
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
@@ -105,7 +105,7 @@
     },
     {
       "title": "Hungry Cowboy Meal",
-      "date": "2026-10-18",
+      "date": "2026-11-15",
       "time": "After 10:00 AM service",
       "location": "Cowboy Church",
       "description": "We celebrate communion during service and gather afterward for a meal with fellowship.",
