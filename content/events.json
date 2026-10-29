@@ -25,11 +25,11 @@
     {
       "featured": true,
       "title": "Sunday Message: A Brand New Start",
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "time": "10 am",
       "location": "The Cowboy Church",
-      "description": "A BRAND-NEW START: Is God Saying Go ... Or Not Yet?\nA new job? A big move? An unexpected opportunity? We all face moments when we're ready for something different. But what if the biggest challenge isn't deciding WHERE to go, but knowing WHEN to go? What if we're overlooking something important?\nThis Sunday, October 25, we'll discover some fascinating lessons from Noah's remarkable new beginning. You might be surprised by what his story reveals about the decisions we face, the opportunities ahead, and what really makes a BRAND-NEW START successful!\nJoin us at 10:00 a.m. at Cowboy Church, Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. You belong here!\n\n\n\n\n\n\n\n\n\n\n",
-      "image": "/assets/uploads/image-brand-new-start-genesis-8-9.jpg"
+      "description": "THE TROUBLE WITH TOWERS: When Our Plans Get Bigger Than God\nHave you ever been so sure you were headed in the right direction—only to discover you were making a BIG MISTAKE? What if some of our greatest accomplishments could actually become our biggest problems? What if an event from thousands of years ago helps explain some of the most FASCINATING things about our world today?\nThis Sunday, November 1, we're exploring one of the Bible's most intriguing stories. It's a story of BIG DREAMS, BIG PLANS, and a SURPRISING intervention that changed the course of human history. And you might be surprised by what it reveals about the towers we're building in our own lives!\nJoin us at 10:00 a.m. at Cowboy Church, Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. You belong here!\n\n\n\n\n\n\n\n\n\n\n\n",
+      "image": "/assets/uploads/screenshot-2026-10-26-164205.jpg"
     },
     {
       "featured": true,
@@ -47,12 +47,12 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-10-28"
+      "date": "2026-11-04"
     },
     {
       "featured": true,
       "title": "Youth Night",
-      "date": "2026-10-28",
+      "date": "2026-11-04",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -61,7 +61,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -87,16 +87,17 @@
     },
     {
       "title": "Beginner Line Dancing ",
-      "date": "2026-10-27",
+      "date": "2026-11-03",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
       "featured": true,
-      "recurring": "Weekly"
+      "recurring": "Weekly",
+      "image": "/assets/uploads/beginners-line-dancing.png"
     },
     {
       "title": "The Gathering – Wednesday Night Bible Study ",
-      "date": "2026-10-28",
+      "date": "2026-11-04",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
