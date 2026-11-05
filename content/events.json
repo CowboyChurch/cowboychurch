@@ -24,12 +24,12 @@
     },
     {
       "featured": true,
-      "title": "Sunday Message: A Brand New Start",
-      "date": "2026-11-01",
+      "title": "Sunday Message: When Winning Isn't Everything",
+      "date": "2026-11-08",
       "time": "10 am",
       "location": "The Cowboy Church",
-      "description": "THE TROUBLE WITH TOWERS: When Our Plans Get Bigger Than God\nHave you ever been so sure you were headed in the right direction—only to discover you were making a BIG MISTAKE? What if some of our greatest accomplishments could actually become our biggest problems? What if an event from thousands of years ago helps explain some of the most FASCINATING things about our world today?\nThis Sunday, November 1, we're exploring one of the Bible's most intriguing stories. It's a story of BIG DREAMS, BIG PLANS, and a SURPRISING intervention that changed the course of human history. And you might be surprised by what it reveals about the towers we're building in our own lives!\nJoin us at 10:00 a.m. at Cowboy Church, Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. You belong here!\n\n\n\n\n\n\n\n\n\n\n\n",
-      "image": "/assets/uploads/screenshot-2026-10-26-164205.jpg"
+      "description": "WHEN WINNING ISN'T EVERYTHING!\nWe've all heard the saying, “Winning isn't everything. It's the ONLY thing!” But what if getting exactly what you WANT turns out to be the biggest MISTAKE you could make? This Sunday, November 8, we'll explore a fascinating story from Genesis about two men and one big decision: with a SURPRISING outcome. \nJoin us at 10 am this Sunday, Nov. 8 at Cowboy Church located at Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. You belong here!\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "image": "/assets/uploads/when-winning-isn-t-everything-image_final1.jpg"
     },
     {
       "featured": true,
@@ -47,25 +47,28 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-11-04"
+      "date": "2026-11-11",
+      "image": "/assets/uploads/18eef847-dc88-4bd2-aa78-7b424c36893e.png"
     },
     {
       "featured": true,
       "title": "Youth Night",
-      "date": "2026-11-04",
+      "date": "2026-11-11",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
-      "description": "Every Wednesday at The Cowboy Church - \nGrow together, real talk, faith that matters, food & games, worship & fun!"
+      "description": "Every Wednesday at The Cowboy Church - \nGrow together, real talk, faith that matters, food & games, worship & fun!",
+      "image": "/assets/uploads/social-media-image.png"
     },
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-11-01",
+      "date": "2026-11-08",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
-      "description": "Struggling with addiction, grief, trauma or life's challenges? You don't have to face it alone.\nJoin us for a Christ-centered recovery journey using the Life Recovery Bible and Life Recovery Workbook as tools for restoration.  Along with biblical principles to liveyour life stronger in Christ."
+      "description": "Struggling with addiction, grief, trauma or life's challenges? You don't have to face it alone.\nJoin us for a Christ-centered recovery journey using the Life Recovery Bible and Life Recovery Workbook as tools for restoration.  Along with biblical principles to liveyour life stronger in Christ.",
+      "image": "/assets/uploads/758943861_122185927520887582_4195982197774057290_n.jpg"
     },
     {
       "featured": true,
@@ -78,7 +81,7 @@
     },
     {
       "featured": true,
-      "title": "Men's Ministry Breakfast (Off-Site for Nov. due to Craft Show)",
+      "title": "Men's Ministry Breakfast (Off-Site at Blaine Perkins for Nov. due to Craft Show)",
       "date": "2026-11-07",
       "time": "8 - 9:30 a.m.",
       "location": "The Cowboy Church",
@@ -87,7 +90,7 @@
     },
     {
       "title": "Beginner Line Dancing ",
-      "date": "2026-11-03",
+      "date": "2026-11-10",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
@@ -97,12 +100,13 @@
     },
     {
       "title": "The Gathering – Wednesday Night Bible Study ",
-      "date": "2026-11-04",
+      "date": "2026-11-11",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
       "featured": true,
-      "recurring": "Weekly"
+      "recurring": "Weekly",
+      "image": "/assets/uploads/screenshot-2026-09-02-120219.jpg"
     },
     {
       "title": "Hungry Cowboy Meal",
