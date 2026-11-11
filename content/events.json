@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "featured": false,
+      "featured": true,
       "title": "Christmas Eve Candle Light Service at The Cowboy Church",
       "date": "2026-12-24",
       "time": "5 p.m.",
@@ -81,7 +81,7 @@
     },
     {
       "featured": true,
-      "title": "Men's Ministry Breakfast (Off-Site at Blaine Perkins for Nov. due to Craft Show)",
+      "title": "Men's Ministry Breakfast ",
       "date": "2026-12-05",
       "time": "8 - 9:30 a.m.",
       "location": "The Cowboy Church",
