@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "featured": false,
+      "title": "Christmas Eve Candle Light Service at The Cowboy Church",
+      "date": "2026-12-24",
+      "time": "5 p.m.",
+      "location": "The Cowboy Church 17525 Highway 65 NE., Ham Lake, MN  55304",
+      "description": "Celebrate the wonder of Christmas with us at The Cowboy Church! Join us for a beautiful, peaceful candlelight service as we pause from the busyness of the season to remember the greatest gift of all — Jesus Christ, our Savior.\n\nBring your family, invite a friend, and share in a special evening of worship, reflection, and Christmas joy. We would love to celebrate the birth of our Savior with you!",
+      "image": "/assets/uploads/4954fb42-0ad8-4aaa-88f7-be628ccc64c3.png"
+    },
+    {
       "recurring_details": "Every Tuesday Evening at 5:00 p.m.",
       "time": "5:00 p.m.",
       "featured": true,
@@ -24,21 +33,12 @@
     },
     {
       "featured": true,
-      "title": "Sunday Message: When Winning Isn't Everything",
-      "date": "2026-11-08",
+      "title": "Sunday Message: A Control Freak's Guide To Letting Go",
+      "date": "2026-11-15",
       "time": "10 am",
       "location": "The Cowboy Church",
-      "description": "WHEN WINNING ISN'T EVERYTHING!\nWe've all heard the saying, “Winning isn't everything. It's the ONLY thing!” But what if getting exactly what you WANT turns out to be the biggest MISTAKE you could make? This Sunday, November 8, we'll explore a fascinating story from Genesis about two men and one big decision: with a SURPRISING outcome. \nJoin us at 10 am this Sunday, Nov. 8 at Cowboy Church located at Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. You belong here!\n\n\n\n\n\n\n\n\n\n\n\n\n",
-      "image": "/assets/uploads/when-winning-isn-t-everything-image_final1.jpg"
-    },
-    {
-      "featured": true,
-      "title": "Craft Show and Bake Sale",
-      "date": "2026-11-07",
-      "time": "10 a.m. to 4 p.m.",
-      "location": "The Cowboy Church",
-      "description": "Craft Show and Bake Sale - More information coming soon!",
-      "image": "/assets/uploads/5bb867d0-2d03-4517-9c8a-d91c8115b8f1.png"
+      "description": "A CONTROL FREAK'S GUIDE TO LETTING GO\nWhen Life Won't Cooperate\nEver feel like the harder you try to control things, the more out of control they get? People won't cooperate and plans fall apart. And sometimes life takes a turn you never saw coming. This Sunday, November 15, we'll meet a man in Genesis who thought he could control just about anything—until he faced a situation that threatened to change everything.\nJoin us at 10 am this Sunday, Nov. 15, at Cowboy Church, located at Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. You belong here!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "image": "/assets/uploads/image-control-freak-gen-32.jpg"
     },
     {
       "featured": true,
@@ -63,7 +63,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-11-08",
+      "date": "2026-11-15",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -72,9 +72,9 @@
     },
     {
       "featured": true,
-      "title": "Women's Ministry Breakfast",
+      "title": "Women's Ministry Breakfast (Serving Chili to Adopt-A-Highway Volunteers, Arrive 10:30 a.m.)",
       "date": "2026-11-14",
-      "time": "9 - 11 a.m.",
+      "time": "10:30 a.m.",
       "location": "The Cowboy Church",
       "recurring": "Monthly",
       "description": "Cowboy Church Women’s ministry is a place where women can connect, build rich friendships and experience God in a life transforming way!\nBring food to share - but not required! Join us!"
@@ -82,7 +82,7 @@
     {
       "featured": true,
       "title": "Men's Ministry Breakfast (Off-Site at Blaine Perkins for Nov. due to Craft Show)",
-      "date": "2026-11-07",
+      "date": "2026-12-05",
       "time": "8 - 9:30 a.m.",
       "location": "The Cowboy Church",
       "recurring": "Monthly",
