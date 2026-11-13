@@ -7,7 +7,7 @@
       "time": "5 p.m.",
       "location": "The Cowboy Church 17525 Highway 65 NE., Ham Lake, MN  55304",
       "description": "Celebrate the wonder of Christmas with us at The Cowboy Church! Join us for a beautiful, peaceful candlelight service as we pause from the busyness of the season to remember the greatest gift of all — Jesus Christ, our Savior.\n\nBring your family, invite a friend, and share in a special evening of worship, reflection, and Christmas joy. We would love to celebrate the birth of our Savior with you!",
-      "image": "/assets/uploads/4954fb42-0ad8-4aaa-88f7-be628ccc64c3.png"
+      "image": "/assets/uploads/3d87a0f5-ca7e-4612-b4a5-1e6e2379ee01.png"
     },
     {
       "recurring_details": "Every Tuesday Evening at 5:00 p.m.",
@@ -47,13 +47,13 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-11-11",
+      "date": "2026-11-18",
       "image": "/assets/uploads/18eef847-dc88-4bd2-aa78-7b424c36893e.png"
     },
     {
       "featured": true,
       "title": "Youth Night",
-      "date": "2026-11-11",
+      "date": "2026-11-18",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -90,7 +90,7 @@
     },
     {
       "title": "Beginner Line Dancing ",
-      "date": "2026-11-10",
+      "date": "2026-11-17",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
@@ -100,7 +100,7 @@
     },
     {
       "title": "The Gathering – Wednesday Night Bible Study ",
-      "date": "2026-11-11",
+      "date": "2026-11-18",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
