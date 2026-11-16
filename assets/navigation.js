@@ -20,9 +20,21 @@
         var opening = !nav.classList.contains("is-open");
         nav.classList.toggle("is-open", opening);
         menuButton.setAttribute("aria-expanded", String(opening));
+        menuButton.setAttribute("aria-label", opening ? "Close navigation menu" : "Open navigation menu");
         if (!opening) closeDropdowns();
       });
     }
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        if (nav) nav.classList.remove("is-open");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.setAttribute("aria-label", "Open navigation menu");
+        }
+        closeDropdowns();
+      }
+    });
 
     document.querySelectorAll(".dropbtn").forEach(function (button) {
       button.addEventListener("click", function (event) {
