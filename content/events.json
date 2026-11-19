@@ -22,9 +22,9 @@
     },
     {
       "recurring_details": "Every Third Sunday of the Month",
-      "time": "12:30-2:30 p.m.",
+      "time": "11:45 a.m. - 1:45 p.m.",
       "featured": true,
-      "date": "2026-11-15",
+      "date": "2026-12-20",
       "location": "Multi-Purpose Room",
       "title": "Jam Session",
       "image": "/assets/uploads/screenshot-2026-09-09-092308.jpg",
@@ -33,12 +33,12 @@
     },
     {
       "featured": true,
-      "title": "Sunday Message: A Control Freak's Guide To Letting Go",
-      "date": "2026-11-15",
+      "title": "Sunday Message: Wrestling with God - Living with a Limp",
+      "date": "2026-11-22",
       "time": "10 am",
       "location": "The Cowboy Church",
-      "description": "A CONTROL FREAK'S GUIDE TO LETTING GO\nWhen Life Won't Cooperate\nEver feel like the harder you try to control things, the more out of control they get? People won't cooperate and plans fall apart. And sometimes life takes a turn you never saw coming. This Sunday, November 15, we'll meet a man in Genesis who thought he could control just about anything—until he faced a situation that threatened to change everything.\nJoin us at 10 am this Sunday, Nov. 15, at Cowboy Church, located at Hwy 65 and Crosstown Blvd. in Ham Lake. Come as you are—and bring a friend. You belong here!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-      "image": "/assets/uploads/image-control-freak-gen-32.jpg"
+      "description": "WRESTLING WITH GOD: LIVING WITH A LIMP\nSometimes our greatest struggles feel like we are living with a limp. But what if those very struggles could become turning points in our lives? This Sunday: WRESTLING WITH GOD — Living with a Limp. Join us at Cowboy Church as we explore one of the Bible's most fascinating encounters—a man wrestles with God. You belong here!\nSunday, November 22 | 10:00 a.m.\nHwy 65 & Crosstown Blvd., Ham Lake\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "image": "/assets/uploads/image-wrestling-with-god.jpg"
     },
     {
       "featured": true,
@@ -47,13 +47,13 @@
       "recurring": "Weekly",
       "location": "Prayer Room",
       "time": "6:30 p.m.",
-      "date": "2026-11-18",
+      "date": "2026-11-25",
       "image": "/assets/uploads/18eef847-dc88-4bd2-aa78-7b424c36893e.png"
     },
     {
       "featured": true,
-      "title": "Youth Night",
-      "date": "2026-11-18",
+      "title": "Youth Night (No Youth Group 11/25 due to Thanksgiving Holiday)",
+      "date": "2026-11-25",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -63,7 +63,7 @@
     {
       "featured": true,
       "title": "Roundup Recovery ",
-      "date": "2026-11-15",
+      "date": "2026-11-22",
       "time": "4 p.m. ",
       "location": "The Cowboy Church - Multipurpose Room",
       "recurring": "Weekly",
@@ -72,9 +72,9 @@
     },
     {
       "featured": true,
-      "title": "Women's Ministry Breakfast (Serving Chili to Adopt-A-Highway Volunteers, Arrive 10:30 a.m.)",
-      "date": "2026-11-14",
-      "time": "10:30 a.m.",
+      "title": "Women's Ministry Breakfast ",
+      "date": "2026-12-12",
+      "time": "9-11 a.m.",
       "location": "The Cowboy Church",
       "recurring": "Monthly",
       "description": "Cowboy Church Women’s ministry is a place where women can connect, build rich friendships and experience God in a life transforming way!\nBring food to share - but not required! Join us!"
@@ -90,7 +90,7 @@
     },
     {
       "title": "Beginner Line Dancing ",
-      "date": "2026-11-17",
+      "date": "2026-11-24",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
@@ -99,8 +99,8 @@
       "image": "/assets/uploads/beginners-line-dancing.png"
     },
     {
-      "title": "The Gathering – Wednesday Night Bible Study ",
-      "date": "2026-11-18",
+      "title": "The Gathering – Wednesday Night Bible Study (No Bible Study 11/25, due to Thanksgiving Holiday)",
+      "date": "2026-11-25",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
@@ -109,8 +109,8 @@
       "image": "/assets/uploads/screenshot-2026-09-02-120219.jpg"
     },
     {
-      "title": "Hungry Cowboy Meal",
-      "date": "2026-11-15",
+      "title": "Hungry Cowboy Meal (No meal in Dec. Next meal Jan. 17th)",
+      "date": "2027-01-17",
       "time": "After 10:00 AM service",
       "location": "Cowboy Church",
       "description": "We celebrate communion during service and gather afterward for a meal with fellowship.",
