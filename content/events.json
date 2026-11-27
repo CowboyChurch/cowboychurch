@@ -42,7 +42,7 @@
     },
     {
       "featured": true,
-      "title": "Intercessory Prayer (Not meeting this week, Nov. 25th due to Thanksgiving Holiday)",
+      "title": "Intercessory Prayer",
       "description": "Praying for one another, our church, our community, and our world. \nA time of shared prayer & encouragement.\nWe pray for personal needs & weekly prayer requests.",
       "recurring": "Weekly",
       "location": "Prayer Room",
@@ -52,8 +52,8 @@
     },
     {
       "featured": true,
-      "title": "Youth Night (No Youth Group 11/25 due to Thanksgiving Holiday)",
-      "date": "2026-11-25",
+      "title": "Youth Night ",
+      "date": "2026-12-02",
       "time": "6:30 p.m.",
       "location": "The Cowboy Church Youth Room",
       "recurring": "Weekly",
@@ -89,8 +89,8 @@
       "description": "Come and share real life together, eat some good food, laugh and have fun!\nBring food to share - but not required!\n"
     },
     {
-      "title": "Beginner Line Dancing (Not Meeting This Week, Due to Thanksgiving Holiday)",
-      "date": "2026-11-24",
+      "title": "Beginner Line Dancing ",
+      "date": "2026-12-01",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "A fun, welcoming weekly gathering for beginners and friends.\n\n",
@@ -99,8 +99,8 @@
       "image": "/assets/uploads/beginners-line-dancing.png"
     },
     {
-      "title": "The Gathering – Wednesday Night Bible Study (No Bible Study 11/25, due to Thanksgiving Holiday)",
-      "date": "2026-11-25",
+      "title": "The Gathering – Wednesday Night Bible Study",
+      "date": "2026-12-02",
       "time": "6:30 PM",
       "location": "Cowboy Church",
       "description": "Open to all ages as we dig deep into the Bible and talk about how it applies to real life. Coffee, treats, fellowship, and childcare for Kindergarten through 5th Grade.",
